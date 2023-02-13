@@ -72,14 +72,14 @@ const randomNum = () =>{
       <footer className="blockquote-footer" id='author'> <cite title="Source Title">{author}</cite></footer>
     </blockquote>
     
-      <a style = {{fontSize:"30px"}} className="twitter-share-button card-link float-start mb-5"
+      <a style = {{fontSize:"30px"}} className="float-start"
   href="https://twitter.com/intent/tweet" id='tweet-quote' target="_blank"><FaTwitterSquare/></a>
      
       <a style = {{fontSize:"30px"}} href="https://www.facebook.com/sharer/sharer.php?u=example.org" id='facebook-quote' target="_blank" className= "card-link float-start">
   <FaFacebookSquare/>
 </a>
       
-      <button type="button" className="btn  float-end text-white mb-5" id='new-quote' onClick={handleClick}>New Quote</button>
+      <button type="button" className="btn  float-end text-white" id='new-quote' onClick={handleClick}>New Quote</button>
       
       
 
